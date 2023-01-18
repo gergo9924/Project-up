@@ -1,0 +1,38 @@
+.restaurant-main-details-modification-btn{
+    
+        margin: 10px 0;
+        background-color: #da3743;
+        border-radius: 4px;
+        color: white;
+        padding: 8px 10px;
+        font-size: 13px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+}
+.restaurant-modification-container{
+    padding-top: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin: auto;
+    color: rgb(102, 102, 102);
+  }
+
+  .maindetails{
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    background-color: #fdfcfc;
+    display: flex;
+    justify-content: center;
+    
+  }
+  

@@ -1,0 +1,35 @@
+.restaurant-reservation-modif-container{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #666666;
+}
+.restaurant-reserv-update-btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #da3743;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.restaurant-modif-btn-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.restaurant-modif-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 300px;
+    margin-top: 20px;
+}

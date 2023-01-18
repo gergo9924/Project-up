@@ -1,0 +1,21 @@
+.restaurant-input-details-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.restaurant-input-details-div > input {
+    width: 75%;
+    height: 20px;
+    color: #666666;
+
+}
+.restaurant-input-details-div > span {
+    width: 50%;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+    height: 20px;
+    font-weight: bolder;
+}

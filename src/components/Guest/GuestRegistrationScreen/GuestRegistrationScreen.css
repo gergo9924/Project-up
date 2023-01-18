@@ -1,0 +1,35 @@
+.user-registration-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-registration-container > input {
+    text-align: center;
+    height: 30px;
+    margin: 5px auto;
+    width: 500px;
+}
+
+.user-registration-container > h1 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+}
+
+.user-registration-container > p {
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+.user-registration-container > button {
+    margin: 30px auto;
+    background-color: #da3743;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 20px;
+    width: 200px;
+}

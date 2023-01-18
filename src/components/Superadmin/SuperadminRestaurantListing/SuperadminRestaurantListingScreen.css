@@ -1,0 +1,56 @@
+.super-main-restaurants-listing {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px 300px;
+  gap: 20px;
+  max-width: 1400px;
+}
+
+.super-main-restaurants-listing-items {
+    overflow: hidden;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    text-align: center;
+    max-width: 300px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.super-pic {
+  transition: transform 1200ms;
+  height: 348px;
+  display: block;
+}
+
+.super-btns {
+  height: 0px;
+  transition: transform 1000ms;
+
+}
+
+.super-main-restaurants-listing-items:hover .super-btns {
+
+  height: 200px;
+  transform: translateY(-50px);
+}
+
+.super-name-email-div {
+  transition: transform 1200ms;
+}
+
+.super-main-restaurants-listing-items:hover .super-name-email-div {
+  transform: translateY(-40px) ;
+}
+
+.super-main-restaurants-listing-items:hover .super-pic {
+  transform: translateY(-200px);
+}
+
+.space-between {
+    justify-content: space-around;
+}

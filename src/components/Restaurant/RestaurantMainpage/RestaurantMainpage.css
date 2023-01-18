@@ -1,0 +1,294 @@
+.restaurant-main-details-div {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 60px;
+}
+
+.show-menu {
+  margin-bottom: 30px;
+  background-color: #da3743;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.restaurant-details {
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  bottom: 60px;
+  width: 38%;
+  padding: 0 25px;
+}
+
+.rest-main-reservation-main-div {
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  bottom: 60px;
+  width: 38%;
+  padding: 0 25px;
+}
+
+.rest-main-reservation-div{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+}
+
+.rest-links {
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.rest-links > * {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: rgb(102, 102, 102);
+}
+
+.rest-links > *:hover {
+  text-decoration: none;
+  color: #da3743;
+  font-weight: bold;
+}
+
+.rest-main-reservation-title-div {
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.rest-main-reservation-title-div > h3 {
+  margin: auto;
+}
+
+/* .title-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.rest-h1 {
+  font-size: 2.6rem;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.rating-fav-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.restaurant-rating-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rest-detail {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: lightgrey;
+  color: rgb(102, 102, 102);
+}
+
+.rest-address {
+  margin-bottom: 10px;
+}
+
+.menu-div {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 20px;
+}
+
+.menu-type-div {
+  text-align: center;
+}
+
+.menu-type-div > h2 {
+  border-bottom: 1px solid lightgrey;
+}
+.menu-item > * {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 5px;
+}
+
+.guests-input-div {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+}
+
+.guests-input-div > input {
+  width: 50px;
+  height: 25px;
+  padding: 0 10px;
+  border-bottom: 1px solid lightgrey;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.guests-input-div > h4 {
+  font-size: 0.85rem;
+}
+
+.message-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message-div > p {
+  font-size: 0.8rem;
+  color: rgb(102, 102, 102);
+}
+.message-div > input {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  height: 60px;
+  width: 250px;
+  text-align: center;
+}
+
+.make-reservation-btn {
+  margin: 20px auto;
+  background-color: #da3743;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  width: 160px;
+}
+.additional-comment-btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #da3743;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  width: 160px;
+}
+
+.make-reservation-btn:hover {
+  opacity: 0.8;
+}
+.make-reservation-btn:disabled {
+  margin: 20px auto;
+  background-color: grey;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  width: 160px;
+}
+
+.date-time-block {
+  display: flex;
+  margin-left: 0px;
+}
+
+#contacts {
+  font-size: 2rem;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#reviews {
+  font-size: 2rem;
+}
+
+.reviews-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  margin-bottom: 30px;
+  background-color: #fdfcfc;
+}
+
+.reviews-div > h2 {
+  margin-bottom: 5px;
+}
+.reviews-div > p {
+  margin-top: 5px;
+}
+.reviews-div > input {
+  text-align: center;
+  width: 256px;
+  height: 64px;
+}
+
+.user-rating-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comments-div-cont {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 30px;
+  background-color: #fdfcfc;
+}
+
+.comment-textarea {
+  background-color: #fdfcfc;
+  padding-top: 30px;
+  font-family: "Lato", sans-serif;
+  width: 300px;
+  max-width: 300px;
+  height: 80px;
+  max-height: 80px;
+  text-align: center;
+  border-radius: 4px;
+  border-color: lightgrey;
+}

@@ -1,0 +1,37 @@
+.super-new-reservation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.super-new-reservation input {
+  height: 25px;
+  align-self: center;
+}
+
+.user-restaurant-choose {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.super-custom-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.super-custom-message > input {
+  margin: auto;
+
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  height: 60px;
+  width: 250px;
+  text-align: center;
+}
+.user-restaurant-choose  > * {
+    text-align: center;
+    min-height: 30px;
+    padding: 5px 10px;
+    
+}

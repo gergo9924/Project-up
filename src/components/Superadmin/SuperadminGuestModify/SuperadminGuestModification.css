@@ -1,0 +1,59 @@
+.super-guest-modification-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #666666;
+}
+
+.super-guest-modification-container > input {
+    text-align: center;
+    height: 30px;
+    margin: 5px auto;
+    width: 500px;
+}
+
+.super-guest-modification-container > h1 {
+    padding-top: 35px;
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+}
+
+.super-guest-modification-container > p {
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+.super-guest-main-details-modif-btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #da3743;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.super-guest-reserv-back-btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #808080;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.super-guest-reserv-modif-btn-div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}

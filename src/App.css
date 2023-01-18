@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.App {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  max-width: 1400px;
+  margin: auto;
+  color: #666666;
+  background-color: white
+}
+
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+

@@ -1,0 +1,93 @@
+.super-menuitem-modification {
+    font-size: 25px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.super-menuitem-modification-container{
+   margin-left: auto;
+   margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #666666;
+    width: 800px;
+}
+
+.super-menuitem-modification-container div {
+width: 30%;
+
+}
+.super-menuitem-modification-container div input{
+width: 100%;
+
+}
+
+.super-menu-item-modif-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #da3743;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    width: max-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.super-menu-back-btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #808080;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    min-width: max-content;
+    height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.super-btn-back-accepted {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: baseline;
+   margin-top: auto;
+   margin-bottom: auto;
+  }
+
+  .allergen-del-btn-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.underlined {
+ 
+        margin-left: 0px;
+        margin-right: auto;
+        font-weight: bold;
+        padding: 0px;
+        margin-top: 0px;
+        text-align: left;
+        text-decoration-style: wavy;
+
+    
+}
+.wavy {
+    text-decoration-line: underline;
+    padding-bottom:3px;
+    text-decoration-style: wavy;
+  
+}
+

@@ -1,0 +1,172 @@
+.super-reservation-modif-container{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #666666;
+}
+
+.super-reservation-modif-div {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: space-between;
+    gap: 10px
+}
+
+
+.super-reservation-input-details-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+
+}
+/* .super-reservation-input-details-div span {
+    align-items: flex-end;
+    justify-items: end;
+} */
+/* 
+.super-reservation-input-details-div > input {
+    width: 40%;
+    height: 20px;
+    color: #666666;
+}
+
+.super-reservation-input-details-div > label {
+    width: 170px;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+    height: 20px;
+    font-weight: bolder;
+} */
+
+.super-booked-date {
+    gap: 20px;
+    display: flex;
+    justify-items: baseline;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.super-booked-date span {
+    
+    display: inline-block;
+margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.super-reservation-input-details-div-message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+.super-reservation-input-details-div-message > *{
+ 
+   gap: 5px;
+}
+
+.reservation-message {
+    height: 100px;
+}
+
+.super-reserv-back-btn{
+   
+   
+    margin-top: 20px;
+    margin-bottom: 30px;
+  
+    background-color: #808080;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.super-reserv-update-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #da3743;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.super-reserv-update-btn:disabled {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.flex-middle-gap {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* 
+.guest-reserv-modif-btn-div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+.guest-reserv-delete-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #808080;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reservation-modif-details-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap:10px
+}
+
+
+
+.reservation-input-details-div > input {
+    width: 60%;
+    height: 20px;
+    color: #666666;
+}
+
+.reservation-input-details-div > label {
+    width: 170px;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+    height: 20px;
+    font-weight: bolder;
+}
+
+
+
+ */
+

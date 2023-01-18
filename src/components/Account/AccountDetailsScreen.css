@@ -1,0 +1,99 @@
+.dashboard-main-div {
+  display: flex;
+  margin: 30px auto auto auto;
+  gap: 50px;
+}
+
+.details-span {
+  font-weight: bolder;
+}
+
+#maindetails-account-box {
+
+  max-width: 400px;
+  min-width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  padding: 20px 40px;
+  margin: 0px auto 5px auto;
+  background-color: #fdfcfc;
+  border-radius: 5px;
+  min-height: min-content;
+
+}
+
+.maindetails-heading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.maindetails-heading-div > h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.maindetails-div > div {
+  padding: 6px 0;
+  font-size: 1rem;
+}
+
+.super-dashboard-btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #da3743;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.super-guest-delete-btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #808080;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.del-modify-btns {
+  display: flex; 
+  justify-content: space-around;
+}
+
+
+.maindetails-div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.maindetails-div > div > span:first-child {
+  width: 30%;
+}
+.maindetails-div > div > span:last-child {
+  width: 70%;
+}
+
+.account-detail-grid {
+  justify-content: space-around;
+  display: grid;
+  gap: 20px;
+  grid-template-columns:  repeat(3 ,1fr);
+  grid-template-rows: repeat(auto, minmax(350px, 1fr));
+  
+}
+
+.superaccount {
+  text-align: center;
+}

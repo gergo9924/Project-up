@@ -1,0 +1,79 @@
+.restaurant-menu-item-modification-btn{
+    margin: 10px 0;
+    background-color: #da3743;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.restaurant-menu-item-delete-btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #808080;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-item-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 30px 50px;
+    margin-bottom: 30px;
+}
+.menu-item-container{
+display: flex;
+justify-content: center;
+}
+
+.menu-item-details > h3 {
+    margin-top: 30;
+  }
+
+.menu-item-details > select {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 20px;
+}
+
+.menu-item-details > input {
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.allergen-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.del-allergen-btn {
+    background-color: #808080;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

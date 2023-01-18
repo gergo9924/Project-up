@@ -1,0 +1,80 @@
+.comment-div {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 15px 15px 20px;
+}
+
+.rating-date {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.rating-date > *{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.comment-username > p {
+    margin-top: 3px;
+    width: 120px;
+}
+
+.comment-modify-btn {
+    margin-left: 40px;
+    background-color: #da3743;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 8px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modify-comment-div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.modify-comment-textarea{
+    height: 100px;
+    width: 245px;
+    border-color: lightgrey;
+    border-radius: 4px;
+}
+
+.modify-comment-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    width: 115px;
+}
+
+.modify-comment-btn {
+    background-color: #da3743;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 8px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modify-comment-delete-btn {
+    background-color: grey;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 8px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

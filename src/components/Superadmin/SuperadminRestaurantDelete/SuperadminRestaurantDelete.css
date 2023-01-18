@@ -1,0 +1,48 @@
+
+.super-rest-del-modif-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.uper-rest-del-delete-h1{
+    padding-top: 35px;
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.super-rest-del-btn-div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.super-rest-del-update-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #da3743;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.super-rest-delete-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #808080;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

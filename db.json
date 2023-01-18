@@ -1,0 +1,90 @@
+{
+  "restaurants": {
+    "622f76f1-a2d4-42d5-839d-293cf63e019b": {
+      "adress": "dfgn",
+      "capacity": "50000000000",
+      "e_mail": "df",
+      "fireBaseAutToken": "",
+      "ownerName": "dfgn",
+      "password": "fdgn",
+      "phoneNumber": "dfng",
+      "restaurantName": "ddf",
+      "restaurantType": "dfng",
+      "taxId": "ndf",
+      "webpageURL": "dfng"
+    },
+    "a2864888-8adf-4725-b392-0643db6adfa8": {
+      "adress": "Valami",
+      "capacity": "40",
+      "e_mail": "asddsa@valami.com",
+      "fireBaseAutToken": "",
+      "ownerName": "király",
+      "password": "12312312",
+      "phoneNumber": "NINCS",
+      "restaurantName": "gombás",
+      "restaurantType": "chinese",
+      "taxId": "231241412",
+      "webpageURL": "asdasd.com"
+    },
+    "b72307a6-c8a8-45bf-acd0-2720f5e4edb0": {
+      "address": "valami utca 23",
+      "capacity": "10",
+      "e_mail": "valami@gmail.com",
+      "fireBaseAutToken": "",
+      "ownerName": "gergo",
+      "password": "12321343245",
+      "phoneNumber": "2341234123",
+      "restaurantName": "etterem",
+      "restaurantType": "olasz",
+      "taxId": "123234546",
+      "webpageURL": "valami.hu"
+    },
+    "c62634d8-6b8a-4dbe-b16b-beb90cc60df0": {
+      "adress": "asd",
+      "capacity": "2312",
+      "e_mail": "asd",
+      "fireBaseAutToken": "",
+      "ownerName": "asd",
+      "password": "asd",
+      "phoneNumber": "asd",
+      "restaurantName": "asd",
+      "restaurantType": "asd",
+      "taxId": "asd",
+      "webpageURL": "asd"
+    }
+  },
+  "users": {
+    "35b815e6-7f52-4493-9855-944b111090df": {
+      "address": "uraca utca 10",
+      "email": "nfinj@asdasd.com",
+      "firstName": "val",
+      "lastName": "aki",
+      "phone": "3943924",
+      "userName": "valaki"
+    },
+    "49bbbcce-bcc4-4141-ba8c-48171223293e": {
+      "address": "1155 asdasdasd utca 10",
+      "email": "asd@asd.com",
+      "firstName": "Belaasdsd",
+      "lastName": "Kovacsdasdas",
+      "phone": "01234563456456",
+      "userName": "bela123123123"
+    },
+    "9f0cc028-b992-4fc2-9cf6-d2afaba7a682": {
+      "address": "1155 asdasdasd utca 10",
+      "email": "asd@asd.com",
+      "firstName": "2131sadasd",
+      "lastName": "Kovacsdasdas",
+      "phone": "01234563456456",
+      "userName": "klmasjdoiwjqio"
+    },
+    "daea0eeb-2e30-497f-a4cb-fa1a5de90bce": {
+      "address": "1180 kasd 230",
+      "email": "asdasd@asd.com",
+      "firstName": "gergely",
+      "lastName": "polonkai",
+      "phone": "06403313301",
+      "userName": "polgergo"
+    }
+  }
+}

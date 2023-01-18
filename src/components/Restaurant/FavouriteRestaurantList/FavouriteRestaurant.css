@@ -1,0 +1,8 @@
+.main-restaurants-listings{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px;
+    gap: 50px;
+    max-width: 800px;
+}
